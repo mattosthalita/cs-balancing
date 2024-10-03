@@ -41,5 +41,5 @@ O arquivo `cs_balancing.py` contém um sistema de balanceamento entre clientes e
    resultado = customerSuccessBalancing(niveis_cs, niveis_cliente, ids_cs_indisponivel)
    print(f"O CS que atende mais clientes é: {resultado}")
 
-4. **Execute o script**
+4. **Execute o script**:
    python cs_balancing.py
