@@ -42,4 +42,5 @@ O arquivo `cs_balancing.py` contém um sistema de balanceamento entre clientes e
    print(f"O CS que atende mais clientes é: {resultado}")
 
 4. **Execute o script**:
+   ```bash
    python cs_balancing.py
