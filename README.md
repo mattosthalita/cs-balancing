@@ -26,21 +26,9 @@ O arquivo `cs_balancing.py` contém um sistema de balanceamento entre clientes e
    git clone <URL_DO_REPOSITORIO>
    cd <DIR_DO_REPOSITORIO>
 
-2. **Abra o arquivo `cs_balancing.py`:**
-   - Utilize um editor de texto ou IDE de sua escolha para abrir o arquivo `cs_balancing.py`.
-   - Defina os níveis de CS e clientes. Por exemplo:
+## Como testar: 
 
-   ```python
-   niveis_cs = [(1, 50), (2, 100)]  # (ID do CS, Nível do CS)
-   niveis_cliente = [(101, 20), (102, 30)]  # (ID do Cliente, Tamanho do Cliente)
-   ids_cs_indisponivel = []  # IDs dos CSs indisponíveis
+Execute o comando abaixo: 
+ ```bash
+python teste_cs-balancing.py
 
-3. **Chame a função customerSuccessBalancing**:
-   No final do arquivo, adicione a seguinte linha para executar o script e obter o resultado:
-   ```python
-   resultado = customerSuccessBalancing(niveis_cs, niveis_cliente, ids_cs_indisponivel)
-   print(f"O CS que atende mais clientes é: {resultado}")
-
-4. **Execute o script**:
-   ```bash
-   python cs_balancing.py
